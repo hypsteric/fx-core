@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "/": "./",
+    "./": "./"
+  },
+  "tasks": {
+    "example": "deno run examples/hello_world.ts",
+    "ci": "deno run --watch examples/all_features.ts"
+  }
+}
