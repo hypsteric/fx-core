@@ -1,7 +1,7 @@
-import { FX } from '/mod.ts'
+import { FX } from "/mod.ts";
 
-const program = FX.succeed(() => 'Hello, World!')
+const program = FX.succeed(() => "Hello, World!");
 
-const result = FX.run(program)
+const result = FX.runSync(program);
 
-console.log(`Program Result: `, result)
+console.log(`Program Result: `, result);
